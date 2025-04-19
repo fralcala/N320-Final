@@ -22,4 +22,18 @@ List color palette used and rationale for top level layout decisions. Outline Da
 
 ### Members & Responsibilities
 
-List all members and their roles
+#### Francis Alcala - President
+
+- Submit assignment, write Link & Project Summary section.
+
+#### CJ Eilenstine - Scrum Master
+
+- Write Members & Responsibilities section.
+
+#### Kiara Castillo Magallanes - Designer
+
+- Write Design Choices section.
+
+#### Selam Yosief - Analyst
+
+- Write Key Takeaways section.
