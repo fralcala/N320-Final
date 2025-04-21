@@ -10,7 +10,10 @@ Brief description of your what your project is about and why you chose that topi
 
 ### Key Takeaways
 
-Understanding of why we are doing this project
+We want to learn how to work together as a team to build a website from start to finish. 
+This means planning, dividing responsibilities, and communicating clearly throughout the project. 
+We also want to gain experience deploying a live website that looks clean, is easy to navigate, and works smoothly. 
+By the end, we hope to better understand how real-world web development teams collaborate and build professional web applications.
 
 ### Core Webpages
 
