@@ -23,6 +23,63 @@ List core webpages and briefly describe the page of them
 
 List color palette used and rationale for top level layout decisions. Outline Database table design choice with rationale.
 
+- Minimalist design in each page.
+
+##### Color Palette: 
+
+Blue: #6c9edc (Bottons)
+
+Blue 2: #444e63 (subtitles, hover in bottons)
+
+Dark Blue: #111a26 (boxes)
+
+Black: #000000 (backgrund)
+
+White: #ffffff (Titles, text)
+
+##### Font-family:
+
+To use these fonts on a web page, copy this code into the <head> tag of your HTML
+
+```<link rel="stylesheet" href="https://use.typekit.net/yaq6zll.css">```
+
+- Futura Light
+font-family: futura-pt, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+- Futura light Oblique 
+font-family: futura-pt, sans-serif;
+font-weight: 300;
+font-style: italic;
+
+- Futura PT Book
+font-family: futura-pt, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+- Futura PT Book Oblique
+font-family: futura-pt, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+- Futura medium
+font-family: futura-pt, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+- Futura  medium Oblique
+font-family: futura-pt, sans-serif;
+font-weight: 500;
+font-style: italic;
+
+##### Imagnes
+
+- Source: https://stock.adobe.com/
+
+
+
+
 ### Members & Responsibilities
 
 #### Francis Alcala - President
