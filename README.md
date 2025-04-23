@@ -89,15 +89,20 @@ To use these fonts on a web page, copy this code into the <head> tag of your HTM
 #### Francis Alcala - President
 
 - Submit assignment, write Link & Project Summary section.
+- Working on moons page.
 
 #### CJ Eilenstine - Scrum Master
 
 - Write Members & Responsibilities section.
+- Working on stars page.
 
 #### Kiara Castillo Magallanes - Designer
 
 - Write Design Choices section.
+- Make most design decisions such as color palette, etc.
+- Working on Planets page
 
 #### Selam Yosief - Analyst
 
 - Write Key Takeaways section.
+- Working on Galaxies page.
