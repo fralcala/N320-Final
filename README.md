@@ -2,7 +2,8 @@
 
 ### Project Summary
 
-Brief description of your what your project is about and why you chose that topic.
+The topics for this website are galaxies, stars, planets, and moons since the category we chose is space.
+Our site will have pages that go over these topics and have components that users can interact with.
 
 ### Live Link
 
@@ -10,14 +11,20 @@ Brief description of your what your project is about and why you chose that topi
 
 ### Key Takeaways
 
-- We want to learn how to work together as a team to build a website from start to finish. 
-- This means planning, dividing responsibilities, and communicating clearly throughout the project. 
-- We also want to gain experience deploying a live website that looks clean, is easy to navigate, and works smoothly. 
+- We want to learn how to work together as a team to build a website from start to finish.
+- This means planning, dividing responsibilities, and communicating clearly throughout the project.
+- We also want to gain experience deploying a live website that looks clean, is easy to navigate, and works smoothly.
 - By the end, we hope to better understand how real-world web development teams collaborate and build professional web applications.
 
 ### Core Webpages
 
 List core webpages and briefly describe the page of them
+
+- Home Page: The first page a user will see.
+- Galaxies Page: Informs users about galaxies.
+- Stars Page: Informs users about stars.
+- Planets Page: Informs users about planets.
+- Moons Page: Informs users about moons.
 
 ### Design Choices
 
@@ -25,15 +32,15 @@ List color palette used and rationale for top level layout decisions. Outline Da
 
 - Minimalist design in each page.
 
-##### Color Palette: 
+##### Color Palette:
 
-Blue: #6c9edc (Bottons)
+Blue: #6c9edc (Buttons)
 
-Blue 2: #444e63 (subtitles, hover in bottons)
+Blue 2: #444e63 (subtitles, hover in buttons)
 
 Dark Blue: #111a26 (boxes)
 
-Black: #000000 (backgrund)
+Black: #000000 (background)
 
 White: #ffffff (Titles, text)
 
@@ -41,44 +48,41 @@ White: #ffffff (Titles, text)
 
 To use these fonts on a web page, copy this code into the <head> tag of your HTML
 
-```<link rel="stylesheet" href="https://use.typekit.net/yaq6zll.css">```
+`<link rel="stylesheet" href="https://use.typekit.net/yaq6zll.css">`
 
 - Futura Light
-font-family: futura-pt, sans-serif;
-font-weight: 300;
-font-style: normal;
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 
-- Futura light Oblique 
-font-family: futura-pt, sans-serif;
-font-weight: 300;
-font-style: italic;
+- Futura light Oblique
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-style: italic;
 
 - Futura PT Book
-font-family: futura-pt, sans-serif;
-font-weight: 400;
-font-style: normal;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 
 - Futura PT Book Oblique
-font-family: futura-pt, sans-serif;
-font-weight: 400;
-font-style: italic;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: italic;
 
 - Futura medium
-font-family: futura-pt, sans-serif;
-font-weight: 500;
-font-style: normal;
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
 
-- Futura  medium Oblique
-font-family: futura-pt, sans-serif;
-font-weight: 500;
-font-style: italic;
+- Futura medium Oblique
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: italic;
 
-##### Imagnes
+##### Images
 
 - Source: https://stock.adobe.com/
-
-
-
 
 ### Members & Responsibilities
 
