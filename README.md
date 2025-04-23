@@ -18,8 +18,6 @@ Our site will have pages that go over these topics and have components that user
 
 ### Core Webpages
 
-List core webpages and briefly describe the page of them
-
 - Home Page: The first page a user will see.
 - Galaxies Page: Informs users about galaxies.
 - Stars Page: Informs users about stars.
