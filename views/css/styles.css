@@ -160,11 +160,24 @@ main {
 /* Stars Page Styling */
 .starsMain {
   width: 100%;
-  text-align: center;
+  text-align: left;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
 
   flex-direction: column;
   padding: 3em;
+}
+
+.starsMain h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.starsMain p {
+  font-family: Arial, Helvetica, sans-serif;
 }
