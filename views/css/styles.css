@@ -45,6 +45,8 @@ h1, h2, h3, h4, h5 {
 }
 /* end general styles*/
 
+
+/* Nav bar */
 nav {
   height: 80px;
   background-color: var(--background-color);
@@ -131,7 +133,7 @@ nav {
 }
 
 .hero-text p {
-  font-size: 20px;
+  font-size: 17px;
   max-width: 600px;
   margin: 0 auto;
 }
