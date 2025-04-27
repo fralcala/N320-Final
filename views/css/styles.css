@@ -30,12 +30,18 @@ nav {
   justify-content: center;
   padding: 20px 0;
   z-index: 1000;
+  min-height: 80px;
 }
 
 .nav-container {
+  
   display: flex;
   gap: 30px;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px; /* opcional para limitar en pantallas grandes */
+  margin: 0 auto; /* para centrar */
 }
 
 .nav-container a, .nav-container .logo {
