@@ -49,7 +49,6 @@ h5 {
 }
 /* end general styles*/
 
-
 /* Nav bar */
 nav {
   height: 80px;
@@ -142,94 +141,21 @@ nav {
   margin: 0 auto;
 }
 
-.category-link {
-  text-decoration: none;
-}
-
-.categories {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 60px 20px;
-  background-color: black; 
-}
-
-.category-card {
-  background-color: #111a26;
-  width: 220px;
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0; 
-  transition: transform 0.3s ease;
-}
-
-.category-card:hover {
-  transform: translateY(-10px);
-}
-
-.category-card img {
-  width: 150px;
-  height: 150px;
-  object-fit: contain;
-  margin-bottom: 15px;
-  margin-top: -40;
-}
-
-.category-card h3 {
-  color: white;
-  
-  font-weight: 300;
-  font-size: 18px;
-  margin: 0;
-}
-
-/* end home*/
-.starsMain h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: var(--text-color);
-}
-
-.planetsMain h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: var(--text-color);
-}
-
-.galaxiesMain h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: var(--text-color);
-}
-
-.moonsMain h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: var(--text-color);
-}
 
 main {
   position: fixed;
   top: 80px;
   left: 0;
+}
+
+/* Stars Page Styling */
+.starsMain {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  flex-direction: column;
+  padding: 3em;
 }
