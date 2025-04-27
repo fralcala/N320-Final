@@ -17,9 +17,17 @@ p {
   margin-bottom: 16px;
 }
 
+:root {
+  --accent-color: #6c9edc;
+  --primary-color: #111a26;
+  --secondary-color: #444e63;
+  --background-color: #070738;
+  --text-color: #fff;
+}
+
 nav {
   height: 80px;
-  background-color: #402e7a;
+  background-color: var(--background-color);
 }
 
 nav ul {
@@ -35,4 +43,3 @@ nav ul li a {
   text-decoration: none;
   color: #fff;
 }
-
