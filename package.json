@@ -6,15 +6,24 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev": "nodemon server.js"
+   
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Brief description of your what your project is about and why you chose that topic.",
   "dependencies": {
     "express": "^5.1.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fralcala/N320-Final.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fralcala/N320-Final/issues"
+  },
+  "homepage": "https://github.com/fralcala/N320-Final#readme",
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.10"
   }
 }
