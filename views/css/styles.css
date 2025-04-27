@@ -17,22 +17,45 @@ p {
   margin-bottom: 16px;
 }
 
+body {
+  background-color: black;
+}
 nav {
-  height: 80px;
-  background-color: #402e7a;
-}
-
-nav ul {
-  height: 100%;
-
-  list-style: none;
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  gap: 30px;
   align-items: center;
-  justify-content: space-around;
 }
 
-nav ul li a {
+.nav-container a, .nav-container .logo {
+  color: white;
   text-decoration: none;
-  color: #fff;
+  font-size: 15px;
+  padding: 6px 10px;
+  border: 1.5px solid transparent;
+  transition: all 0.3s ease;
+  font-family:'Courier New', Courier, monospace;
 }
 
+.nav-container a:hover, .nav-container .logo:hover {
+  color: #6c9edc;
+  border-color: #6c9edc;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 800;
+  pointer-events: none;
+  
+}
