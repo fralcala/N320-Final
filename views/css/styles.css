@@ -17,6 +17,9 @@ p {
   margin-bottom: 16px;
 }
 
+body{
+  background-color: black;
+}
 :root {
   --accent-color: #6c9edc;
   --primary-color: #111a26;
@@ -48,8 +51,8 @@ nav {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 1200px; /* opcional para limitar en pantallas grandes */
-  margin: 0 auto; /* para centrar */
+  max-width: 1200px; 
+  margin: 0 auto; 
 }
 
 .nav-container a,
@@ -73,4 +76,44 @@ nav {
   font-size: 25px;
   font-weight: 800;
   pointer-events: none;
+}
+/* home*/
+.hero {
+  background: url('../media/home.png') no-repeat center center/cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4); 
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+  font-family: 'Futura-PT', sans-serif;
+  font-weight: 300;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin: 0 0 20px 0;
+}
+
+.hero-text p {
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto;
 }
