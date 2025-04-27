@@ -32,7 +32,7 @@ body {
   --accent-color: #6c9edc;
   --primary-color: #111a26;
   --secondary-color: #444e63;
-  --background-color: #070738;
+  --background-color: #000000;
   --text-color: #fff;
 }
 
@@ -125,7 +125,7 @@ nav {
 .hero-text {
   position: relative;
   z-index: 1;
-  font-family: "Futura-PT", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
 }
 
@@ -141,20 +141,12 @@ nav {
   margin: 0 auto;
 }
 
-main h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: var(--text-color);
-}
 
 main {
   position: fixed;
   top: 80px;
   left: 0;
+  margin: 20px;
 }
 
 /* Stars Page Styling */
