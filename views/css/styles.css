@@ -49,7 +49,6 @@ h5 {
 }
 /* end general styles*/
 
-
 /* Nav bar */
 nav {
   height: 80px;
@@ -142,37 +141,7 @@ nav {
   margin: 0 auto;
 }
 
-.starsMain h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: var(--text-color);
-}
-
-.planetsMain h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: var(--text-color);
-}
-
-.galaxiesMain h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: var(--text-color);
-}
-
-.moonsMain h1,
+main h1,
 h2,
 h3,
 h4,
