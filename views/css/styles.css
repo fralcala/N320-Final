@@ -17,7 +17,7 @@ p {
   margin-bottom: 16px;
 }
 
-body{
+body {
   background-color: black;
 }
 :root {
@@ -51,8 +51,8 @@ nav {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 1200px; 
-  margin: 0 auto; 
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .nav-container a,
@@ -79,7 +79,7 @@ nav {
 }
 /* home*/
 .hero {
-  background: url('../media/home.png') no-repeat center center/cover;
+  background: url("../media/home.png") no-repeat center center/cover;
   height: 100vh;
   width: 100%;
   position: relative;
@@ -91,19 +91,19 @@ nav {
 }
 
 .hero::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.4); 
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .hero-text {
   position: relative;
   z-index: 1;
-  font-family: 'Futura-PT', sans-serif;
+  font-family: "Futura-PT", sans-serif;
   font-weight: 300;
 }
 
@@ -116,4 +116,50 @@ nav {
   font-size: 20px;
   max-width: 600px;
   margin: 0 auto;
+}
+
+.starsMain h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--text-color);
+}
+
+.planetsMain h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--text-color);
+}
+
+.galaxiesMain h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--text-color);
+}
+
+.moonsMain h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--text-color);
+}
+
+main {
+  position: fixed;
+  top: 80px;
+  left: 0;
 }
