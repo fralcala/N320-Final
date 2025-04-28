@@ -125,7 +125,7 @@ nav {
 .hero-text {
   position: relative;
   z-index: 1;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Futura-PT', sans-serif;
   font-weight: 300;
 }
 
@@ -139,6 +139,8 @@ nav {
   font-size: 17px;
   max-width: 600px;
   margin: 0 auto;
+  font-family: 'Futura-PT', sans-serif;
+  
 }
 
 .categories {
@@ -184,7 +186,80 @@ nav {
 .category-link {
   text-decoration: none;
 }
+.intro-extra-text {
+  margin-top: 40px;
+}
 
+.intro-extra-text p {
+  color: white;
+  font-size: 18px;
+  font-family: 'Futura-PT', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+
+.context {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.intro-grid {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+
+.intro-text {
+  flex: 1;
+}
+
+.intro-text h2 {
+  color: white;
+  font-size: 36px;
+  font-family: 'Futura-PT', sans-serif;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.intro-text p {
+  color: white;
+  font-size: 18px;
+  font-family: 'Futura-PT', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+
+.source {
+  font-size: 14px;
+  color: #6c9edc;
+}
+
+.source a {
+  color: #6c9edc;
+  text-decoration: none;
+}
+
+
+.intro-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-image img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
 main {
   position: fixed;
   top: 80px;
