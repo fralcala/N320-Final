@@ -141,6 +141,49 @@ nav {
   margin: 0 auto;
 }
 
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 60px 20px;
+  background-color: black; 
+}
+
+.category-card {
+  background-color: #111a26;
+  width: 220px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0; 
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+}
+
+.category-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.category-card h3 {
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0;
+}
+
+.category-link {
+  text-decoration: none;
+}
 
 main {
   position: fixed;
