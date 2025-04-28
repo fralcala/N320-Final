@@ -42,7 +42,11 @@ Black: #000000 (background)
 
 White: #ffffff (Titles, text)
 
-##### Font-family:
+##### Font-family: h1-h6
+
+- font-family: 'Courier New', Courier, monospace;
+
+##### Font-family: Text
 
 To use these fonts on a web page, copy this code into the <head> tag of your HTML
 
@@ -77,6 +81,10 @@ To use these fonts on a web page, copy this code into the <head> tag of your HTM
   font-family: futura-pt, sans-serif;
   font-weight: 500;
   font-style: italic;
+
+
+
+  
 
 ##### Images
 
