@@ -621,14 +621,9 @@ main {
   /* margin: 20px; */
   color: var(--text-color);
   background-color: var(--background-color);
-  margin-top: 80px;
+  margin-top: 40px;
 
   width: 100%;
-  /* min-height: 100vh; */
-  /* text-align: left;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around; */
 
   flex-direction: column;
   padding: 0 3em 3em 3em;
@@ -756,6 +751,7 @@ main p {
   text-align: center;
 
   color: white;
+  margin-top: 80px;
 }
 
 /* Start of Moons Page style */
@@ -774,6 +770,7 @@ main p {
   align-items: center;
   position: relative;
   text-align: center;
+  margin-top: 80px;
 
   h1 {
     color: white;
