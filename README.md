@@ -44,7 +44,9 @@ White: #ffffff (Titles, text)
 
 ##### Font-family: h1-h6
 
-- font-family: 'Courier New', Courier, monospace;
+(these 2 lines go together)
+- font-family:'Courier New', Courier, monospace;
+  font-weight: 300;
 
 ##### Font-family: Text
 

@@ -37,7 +37,7 @@ body {
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Futura-PT", sans-serif;
 }
 
 h1,
@@ -256,6 +256,84 @@ nav {
   border-radius: 8px;
 }
 
+.fun-facts h2 {
+  color: white;
+  font-size: 36px;
+  font-family: "Futura-PT", sans-serif;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+
+  justify-content: space-between;
+}
+
+.fact-card {
+  background-color: #111a26;
+  padding: 20px;
+  width: 280px;
+
+  color: white;
+  font-family: "Futura-PT", sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.fact-card:hover {
+  transform: translateY(-10px);
+}
+
+.fact-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 15px;
+}
+
+.fact-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+  color: #444e63;
+}
+
+.fact-card p {
+  font-size: 16px;
+
+  font-family: "Futura-PT", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.quiz-button {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.btn-quiz {
+  display: inline-block;
+  background-color: #6c9edc;
+  color: white;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none;
+  border: 1.5px solid transparent;
+  transition: background-color 0.3s ease;
+}
+
+.btn-quiz:hover {
+  background-color: #000000;
+  color: #6c9edc;
+  border-color: #6c9edc;
+  border: 1.5px solid transparent;
+}
+
 .danger-section h2 {
   color: white;
 
@@ -264,7 +342,6 @@ nav {
   font-weight: 300;
 
   margin-bottom: 30px;
-  text-align: center;
 }
 
 .video-container {
@@ -369,3 +446,63 @@ h6 {
 main p {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Galaxies page styling */
+.galaxiesMain {
+  padding: 40px;
+  text-align: center;
+  background-color: #0a0a0a;
+  color: white;
+}
+
+.galaxiesIntro h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.galaxiesIntro h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.galaxiesIntro p {
+  font-size: 20px;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+
+.galaxiesFacts h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.galaxiesFacts ul {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.galaxiesFacts ul li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.galaxiesImage {
+  margin-top: 40px;
+}
+
+.galaxiesImage {
+  background-image: url("../media/galaxies.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  margin: 40px auto 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* End of galaxies edit */
