@@ -649,8 +649,9 @@ main p {
 .galaxiesMain {
   padding: 40px;
   text-align: center;
-  background-color: #0a0a0a;
+  background-color: #000000;
   color: white;
+  margin-top: 40px;
 }
 
 .galaxiesIntro h1 {
