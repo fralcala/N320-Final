@@ -527,3 +527,12 @@ main p {
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
 }
+
+.star-button a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.star-button a:hover {
+  color: var(--accent-color);
+}
