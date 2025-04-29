@@ -421,7 +421,6 @@ main {
   color: var(--text-color);
 }
 
-/* Stars Page Styling */
 main {
   width: 100%;
   min-height: 100vh;
@@ -506,3 +505,10 @@ main p {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 /* End of galaxies edit */
+
+/* Stars Page Styling */
+
+.starsMain img {
+  width: 50%;
+  height: auto;
+}
