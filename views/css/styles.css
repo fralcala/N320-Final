@@ -622,7 +622,6 @@ main {
   color: var(--text-color);
   background-color: #000000;
 
-
   width: 100%;
 
   flex-direction: column;
@@ -750,6 +749,7 @@ main p {
   align-items: center;
   position: relative;
   text-align: center;
+  margin-bottom: 20px;
 
   color: white;
   margin-top: 80px;
@@ -772,6 +772,7 @@ main p {
   position: relative;
   text-align: center;
   margin-top: 80px;
+  margin-bottom: 20px;
 
   h1 {
     color: white;
