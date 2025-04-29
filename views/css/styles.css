@@ -615,12 +615,13 @@ nav {
 /* end planets */
 
 main {
-  position: relative;
+  /* position: relative;
   top: 80px;
-  left: 0;
+  left: 0; */
   /* margin: 20px; */
   color: var(--text-color);
-  background-color: #0a0a0a;
+  background-color: var(--background-color);
+  margin-top: 80px;
 
   width: 100%;
   /* min-height: 100vh; */
@@ -631,6 +632,7 @@ main {
 
   flex-direction: column;
   padding: 0 3em 3em 3em;
+  min-height: 100vh;
 }
 
 main h1,
@@ -738,6 +740,22 @@ main p {
 
 .star-button a:hover {
   color: var(--accent-color);
+}
+
+.stars-hero {
+  background: url("../media/constellation-banner.png") no-repeat center
+    center/cover;
+  min-height: 60vh;
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+
+  color: white;
 }
 
 /* Start of Moons Page style */
