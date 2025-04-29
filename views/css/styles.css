@@ -200,7 +200,7 @@ nav {
 
 
 .context {
-    padding: 60px 20px;
+    padding: 40px 20px;
 
     max-width: 1200px;
   margin: 0 auto;
@@ -254,16 +254,17 @@ nav {
 }
 
 .intro-image img {
-  width: 100%;
+      width: 100%;
    max-height: 400px;
   object-fit: cover;
-  border-radius: 8px;
+  
+
 }
 
 .fun-facts h2 {
-  color: white;
+ color: white;
   font-size: 36px;
-  font-family: 'Futura-PT', sans-serif;
+font-family: 'Futura-PT', sans-serif;
   font-weight: 300;
   margin-bottom: 40px;
 }
@@ -278,6 +279,7 @@ nav {
 
 .fact-card {
   background-color: #111a26;
+ 
   padding: 20px;
   width: 280px;
   
@@ -297,17 +299,18 @@ nav {
 
 .fact-card img {
   width: 100%;
-  height: 160px;
-  object-fit: cover;
+
+   height: 160px;
+   object-fit: cover;
   border-radius: 8px 8px 0 0;
-  margin-bottom: 15px;
+   margin-bottom: 15px;
 }
 
 .fact-card h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
+font-size: 20px;
+   margin-bottom: 10px;
   font-family:'Courier New', Courier, monospace;
-  font-weight: 300;
+   font-weight: 300;
   color: #444e63;
 
 }
@@ -322,24 +325,27 @@ nav {
 
 
 .quiz-button {
-  text-align: left;
+   text-align: left;
   margin-top: 50px;
 }
 
 .btn-quiz {
   display: inline-block;
   background-color: #6c9edc;
+ 
   color: white;
   padding: 12px 24px;
   font-size: 18px;
   font-family:'Courier New', Courier, monospace;
+ 
   text-decoration: none;
-  border: 1.5px solid transparent;
+   border: 1.5px solid transparent;
   transition: background-color 0.3s ease;
 }
 
 .btn-quiz:hover {
   background-color: #000000;
+ 
   color: #6c9edc;
   border-color:  #6c9edc ;
   border: 1.5px solid transparent;
@@ -410,26 +416,47 @@ height: 80%;
 }
 
 .explore-card img {
+ 
   width: 100%;
-  height: 200px;
+   height: 200px;
   object-fit: cover;
 }
 
 .explore-card h3 {
   color: white;
-  font-family:'Courier New', Courier, monospace;
+ font-family:'Courier New', Courier, monospace;
   font-weight: 300;
+  
   font-size: 20px;
   margin: 15px 10px 10px 10px;
 }
 
 .explore-card p {
+ 
   color: white;
-  font-family: 'Futura-PT', sans-serif;
+    font-family: 'Futura-PT', sans-serif;
   font-weight: 300;
+ 
   font-size: 16px;
   margin: 0 10px 20px 10px;
 }
+
+/* footer */
+.footer {
+  width: 100%;
+background-color: #444e63;
+    color: white;
+  text-align: center;
+  padding: 14px 0;
+ 
+  font-family:'Courier New', Courier, monospace;
+ 
+  font-weight: 300;
+  font-size: 12px;
+   position: relative; 
+}
+
+/* end footer */ 
 
 main {
   /* position: fixed; */
