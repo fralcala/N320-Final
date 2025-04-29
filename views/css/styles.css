@@ -615,24 +615,21 @@ nav {
 /* end planets */
 
 main {
-  /* position: absolute; */
-  /* top: 80px; */
-  /* left: 0; */
+  position: relative;
+  top: 80px;
+  left: 0;
   /* margin: 20px; */
   color: var(--text-color);
-  background-color: var(--background-color);
-  margin-top: 80px;
-}
+  background-color: #0a0a0a;
 
-main {
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   /* text-align: left;
   display: flex;
   align-items: flex-start;
   justify-content: space-around; */
 
-  flex-direction: column;
+  /* flex-direction: column; */
   padding: 0 3em 3em 3em;
 }
 
@@ -703,6 +700,7 @@ main p {
   background-size: cover;
   background-position: center;
   width: 100%;
+
   max-width: 800px;
   height: 500px;
   margin: 40px auto 0 auto;
