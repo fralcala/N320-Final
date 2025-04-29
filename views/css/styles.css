@@ -141,9 +141,8 @@ nav {
   margin: 0 auto;
 }
 
-
 main {
-  position: fixed;
+  /* position: fixed; */
   top: 80px;
   left: 0;
   margin: 20px;
@@ -160,3 +159,63 @@ main {
   flex-direction: column;
   padding: 3em;
 }
+
+/* Galaxies page styling */
+.galaxiesMain {
+  padding: 40px;
+  text-align: center;
+  background-color: #0a0a0a;
+  color: white;
+}
+
+.galaxiesIntro h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.galaxiesIntro h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.galaxiesIntro p {
+  font-size: 20px;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+
+.galaxiesFacts h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.galaxiesFacts ul {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.galaxiesFacts ul li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.galaxiesImage {
+  margin-top: 40px;
+}
+
+.galaxiesImage {
+  background-image: url("../media/galaxies.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  margin: 40px auto 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* End of galaxies edit */
