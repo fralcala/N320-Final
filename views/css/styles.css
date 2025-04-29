@@ -423,7 +423,7 @@ main {
 
 main {
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   text-align: left;
   display: flex;
   align-items: flex-start;
@@ -511,4 +511,19 @@ main p {
 .starsMain img {
   width: 50%;
   height: auto;
+}
+
+.star-button {
+  padding: 0.825rem 2rem;
+  background-color: var(--primary-color);
+  outline: none;
+  border: none;
+  color: var(--text-color);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+
+.star-button:hover {
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
 }
