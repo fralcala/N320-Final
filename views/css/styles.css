@@ -419,6 +419,7 @@ main {
   left: 0;
   /* margin: 20px; */
   color: var(--text-color);
+  background-color: #0a0a0a;
 }
 
 main {
