@@ -4,6 +4,11 @@ const path = require("path");
 // Create an express app
 const app = express();
 
+app.use(express.json());
+
+  const apiRoutes = require("./api");
+app.use("/api", apiRoutes);
+
 app.use(
   express.static(
     path.join(__dirname, "views") //

@@ -122,6 +122,30 @@
     </section>
 
     <section class="context">
+      <h2 class="planet-table">Planet Data Table</h2>
+
+      <p class="table-p"> Do you know more information about a planet? Don't keep it to yourself! Add it to the table and help us create the most stellar planetary database in the galaxy!</p>
+    
+      <form id="planet-form">
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="text" id="diameter" placeholder="Diameter" required />
+        <input type="text" id="mass" placeholder="Mass" required />
+        <input type="text" id="color" placeholder="Color" required />
+        <button type="submit">Add</button>
+      </form>
+    
+      <table id="planet-table">
+        <thead>
+          <tr>
+            <th>Name</th><th>Diameter</th><th>Mass</th><th>Color</th><th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+    
+
+    <section class="context">
       <div class="planets-section">
         <h2>Inner Planets</h2>
 
@@ -264,5 +288,6 @@
     <footer class="footer">
       Space Copyright © 2025. All rights reserved. Team Tiramisu
     </footer>
+    <script src="../js/planets.js"></script>
   </body>
 </html>
