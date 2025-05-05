@@ -54,16 +54,14 @@
 
         <div class="intro-extra-solar">
             <h3>Extreme Features of 55 Cancri e</h3>
-            <p>
-              55 Cancri e challenges everything we know about rocky exoplanets. It is nearly twice the size of Earth but has eight times its mass, classifying it as a <strong>super-Earth</strong>. Its orbit is incredibly tight — the planet is just <strong>1.4 million miles</strong> from its host star, much closer than Mercury is to our Sun.
+         <p>   55 Cancri e challenges everything we know about rocky exoplanets. It is nearly twice the size of Earth but has eight times its mass, classifying it as a <strong>super-Earth</strong>. Its orbit is incredibly tight — the planet is just <strong>1.4 million miles</strong> from its host star, much closer than Mercury is to our Sun.
             </p>
           
             <p>
               The planet likely has <strong>no seasons</strong> due to its tidal lock, with one hemisphere permanently exposed to its star. This leads to an enormous temperature contrast between the day and night sides. It's so hot that minerals may vaporize and condense like rain on the cooler side.
             </p>
           
-            <p>
-              Scientists have debated whether 55 Cancri e has an atmosphere or a bare rock surface. Thanks to NASA’s Webb Telescope, recent findings suggest that volcanic activity could be releasing gases into a thin, constantly changing atmosphere. This adds to the planet's mystique — is it a hellish wasteland, or a dynamic lava world with exotic weather?
+         <p> Scientists have debated whether 55 Cancri e has an atmosphere or a bare rock surface. Thanks to NASA’s Webb Telescope, recent findings suggest that volcanic activity could be releasing gases into a thin, constantly changing atmosphere. This adds to the planet's mystique — is it a hellish wasteland, or a dynamic lava world with exotic weather?
             </p>
 
           
@@ -74,16 +72,37 @@
       <section class="context" >
         <div class="create-planet" >
 
-          <h3>Create your own planet! </h3>
+          <h3>Create your own Exoplanet! </h3>
+          
+          <p>
+            Design a fictional exoplanet by choosing a name, climate, and what it’s made of. Let your imagination go galactic! 
+          </p>
+      
+      <form id="exoplanet-form">
+     <input type="text" id="planetName" placeholder="Exoplanet Name" required />
 
+     <input type="text" id="planetClimate" placeholder="Climate (ex. Frozen, Hot, Acid Rain)" required />
+
+      <input type="text" id="planetMaterial" placeholder="Material (ex. Diamond, Ice, Gas, Water)" required />
+           
+     <button type="submit">Add </button>
+          </form>
+      
+       
+    <div class="planets-grid" id="custom-planets-grid">
+            <!--  cards  -->
+          </div>
 
 
         </div>
       </section>
 
+     
       <footer class="footer">
         Space Copyright © 2025. All rights reserved. Team Tiramisu
       </footer>
+
+      <script src="../js/exoplanets.js"></script>
   </body>
   
 </html>

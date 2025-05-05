@@ -48,7 +48,21 @@ h5 {
   font-family: "Courier New", Courier, monospace;
 }
 /* end general styles*/
+.error {
+ text-align: center;
+ color: #fff;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: 300;
+ margin-top: 24%;
+ margin-bottom: 20%;
+}
 
+.error h1 {
+  text-align: center;
+ color: #fff;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: 300;
+}
 /* Nav bar */
 nav {
   height: 80px;
@@ -555,7 +569,7 @@ nav {
 .planets-section h2 {
   color: white;
   font-size: 36px;
-  font-family: "Courier New", Courier, monospace;
+ font-family: "Courier New", Courier, monospace;
   font-weight: 300;
   margin-bottom: 40px;
   text-align: center;
@@ -622,15 +636,16 @@ nav {
 
 .table-p {
   color: #fff;
-  font-family: "Futura-PT", sans-serif;
+font-family: "Futura-PT", sans-serif;
   font-weight: 300;
-  margin-bottom: 30px;
+margin-bottom: 30px;
   margin-top: 20px;
 }
 
 .planet-table {
   font-family: "Courier New", Courier, monospace;
-  font-weight: 300;
+font-weight: 300;
+
   color: #fff;
   font-size: 36px;
 }
@@ -647,11 +662,13 @@ nav {
 }
 
 #planet-form input {
-  background-color: #000000;
-  font-family: "Futura-pt", sans-serif;
+  background-color:   #0e1520;
+font-family: "Futura-pt", sans-serif;
   font-weight: 300;
+
   color: white;
-  border: 1px solid #6c9edc;
+
+  border: 1px solid #444e63;
 }
 
 #planet-form button {
@@ -790,6 +807,71 @@ margin-top: 90px;
   font-weight: 300;
 }
 
+.create-planet p {
+  font-weight: 300;
+font-family: "Futura-PT", sans-serif;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.create-planet {
+  margin-bottom: 60px;
+}
+
+#exoplanet-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+#exoplanet-form input {
+  padding: 10px;
+  flex: 1 1 200px;
+  border: 1px solid #444e63;
+  background-color: #0e1520;
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+font-weight: 300;
+  font-size: 14px;
+}
+
+#exoplanet-form button {
+  padding: 10px 20px;
+  background-color: #6c9edc;
+
+  color: white;
+  font-weight:300;
+
+  border: none;
+  
+  cursor: pointer;
+  font-family:'Courier New', Courier, monospace;
+  transition: background-color 0.3s ease;
+}
+
+#exoplanet-form button:hover {
+  background-color: #111a26;
+}
+
+.planet-card .delete-btn {
+  margin-top: 15px;
+ 
+  padding: 6px 12px;
+background-color: #6c9edc;
+  
+  border: 1px solid #6c9edc;
+  color: #fff;
+cursor: pointer;
+  font-size: 14px;
+  font-family: "Futura-PT", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.planet-card .delete-btn:hover {
+  background-color: #111a26;
+  color: white;
+}
 
 /* end 55 cancri  */
 main {
