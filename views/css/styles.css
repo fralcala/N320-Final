@@ -473,7 +473,7 @@ nav {
 .intro-planets p,
 .intro-planets ul {
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Futura-PT", sans-serif;
   font-weight: 300;
   line-height: 1.6;
@@ -514,7 +514,7 @@ nav {
   font-weight: 300;
   line-height: 1.6;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .intro-img {
@@ -606,7 +606,7 @@ nav {
 }
 
 .planet-card p {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.4;
   font-family: "Futura-PT", sans-serif;
   font-weight: 300;
@@ -704,7 +704,7 @@ nav {
 
   color: white;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 14px;
   transition: background-color 0.3s ease;
 }
 
@@ -714,6 +714,77 @@ nav {
 
 /* end planets */
 
+/* 55cancri */
+.cancri-hero {
+  background: url("../media/cancri.jpeg") no-repeat center center/cover;
+  height: 60vh;
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.cancri-hero h1 {
+  color: white;
+  font-size: 60px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+margin-top: 90px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.cancri-intro {
+  
+  
+  
+  color: white;
+  font-family: 'Futura-pt', sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-top: 10px;
+
+  margin-bottom: -15px;
+  
+}
+
+.cancri-intro p {
+  font-family: "Futura-PT", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 15px;
+  margin-bottom: 15px;
+
+}
+
+.intro-img-c {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-img-c img {
+  width: 100%;
+
+  max-height: 480px;
+
+  object-fit: cover;
+}
+
+.cancri-intro h1 {
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+}
+
+
+
+/* end 55 cancri  */
 main {
   /* position: relative;
   top: 80px;
