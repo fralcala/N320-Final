@@ -608,23 +608,23 @@ nav {
 .planet-card p {
   font-size: 16px;
   line-height: 1.4;
-font-family: "Futura-PT", sans-serif;
+  font-family: "Futura-PT", sans-serif;
   font-weight: 300;
 }
 
 #planet-form {
-display: flex;
-  
-flex-wrap: wrap;
+  display: flex;
+
+  flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 20px;
 }
 
-.table-p { 
+.table-p {
   color: #fff;
   font-family: "Futura-PT", sans-serif;
-    font-weight: 300;
-margin-bottom: 30px;
+  font-weight: 300;
+  margin-bottom: 30px;
   margin-top: 20px;
 }
 
@@ -632,32 +632,33 @@ margin-bottom: 30px;
   font-family: "Courier New", Courier, monospace;
   font-weight: 300;
   color: #fff;
-font-size: 36px;
+  font-size: 36px;
 }
 
-#planet-form input, #planet-form button {
+#planet-form input,
+#planet-form button {
   padding: 8px 12px;
-border: none;
- 
+  border: none;
+
   font-size: 14px;
-  
+
   font-family: "Futura-PT", sans-serif;
   font-weight: 300;
 }
 
 #planet-form input {
   background-color: #000000;
- font-family: 'Futura-pt', sans-serif;
+  font-family: "Futura-pt", sans-serif;
   font-weight: 300;
-color: white;
+  color: white;
   border: 1px solid #6c9edc;
 }
 
 #planet-form button {
   background-color: #6c9edc;
   color: white;
-   cursor: pointer;
-   transition: background-color 0.3s ease;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 #planet-form button:hover {
@@ -666,47 +667,44 @@ color: white;
 
 #planet-table {
   width: 100%;
-  
+
   border-collapse: collapse;
- background-color: #000000;
+  background-color: #000000;
   color: white;
- 
-  font-family: 'Futura-pt', sans-serif;
+
+  font-family: "Futura-pt", sans-serif;
   font-weight: 300;
 
   font-size: 14px;
- 
+
   overflow: hidden;
-  
 }
 
-#planet-table th, #planet-table td {
+#planet-table th,
+#planet-table td {
   padding: 12px 15px;
-   border-bottom: 1px solid #111a26;
+  border-bottom: 1px solid #111a26;
   text-align: left;
 }
-
 
 #planet-table th {
   background-color: #111a26;
   color: #ffffff;
-;
-font-weight: 600;
-  
-  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+
+  font-family: "Courier New", Courier, monospace;
   font-weight: 600;
 }
 
 #planet-table td button {
-  
   padding: 6px 10px;
-  
+
   background-color: #6c9edc;
- border: none;
-  
-color: white;
+  border: none;
+
+  color: white;
   cursor: pointer;
-font-size: 12px;
+  font-size: 12px;
   transition: background-color 0.3s ease;
 }
 
@@ -747,66 +745,264 @@ main p {
 }
 
 /* Galaxies page styling */
-.galaxiesMain {
-  padding: 40px;
-  text-align: center;
-  background-color: #000000;
-  color: white;
-  margin-top: 40px;
-}
 
-.galaxiesIntro h1 {
-  font-size: 30px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-.galaxiesIntro h2 {
-  font-size: 25px;
-  margin-bottom: 10px;
-}
-
-.galaxiesIntro p {
-  font-size: 20px;
-  max-width: 800px;
-  margin: 0 auto 40px auto;
-}
-
-.galaxiesFacts h2 {
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-
-.galaxiesFacts ul {
-  list-style: none;
-  padding: 0;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.galaxiesFacts ul li {
-  font-size: 20px;
-  margin-bottom: 10px;
-  text-align: left;
-}
-
-.galaxiesImage {
-  margin-top: 40px;
-}
-
-.galaxiesImage {
-  background-image: url("../media/galaxies.jpeg");
-  background-size: cover;
-  background-position: center;
+.galaxies-hero {
+  background: url("../media/galaxies.jpeg") no-repeat center center/cover;
+  height: 60vh;
   width: 100%;
 
-  max-width: 800px;
-  height: 500px;
-  margin: 40px auto 0 auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
 }
+
+.galaxies-hero h1 {
+  color: white;
+  font-size: 60px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.intro-galaxies h2 {
+  color: white;
+  font-size: 36px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+
+  margin-bottom: 20px;
+}
+
+.intro-galaxies p,
+.intro-galaxies ul {
+  color: white;
+  font-size: 18px;
+  font-family: "Futura-PT", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.intro-galaxies ul {
+  padding-left: 20px;
+}
+.intro-galaxies ul li {
+  margin-bottom: 10px;
+}
+
+.intro-universe {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.intro-desc {
+  flex: 1;
+}
+
+.intro-desc h2 {
+  color: white;
+
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.intro-desc p {
+  color: white;
+
+  font-family: "Futura-PT", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.universe-img {
+  width: 100%;
+  height: 500px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  background-image: url("../media/galaxies2.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.read-more {
+  margin-left: 100px;
+  padding: 0.825rem 2rem;
+  background-color: var(--primary-color);
+  outline: none;
+  border: none;
+  color: var(--text-color);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+
+.read-more:hover {
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.read-more a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.read-more a:hover {
+  color: var(--accent-color);
+}
+
 /* End of galaxies edit */
+/* Fun-fact page starts */
+.fun-fact {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.fun-text {
+  flex: 1;
+}
+
+.fun-text h2 {
+  margin-top: 40px;
+  color: white;
+  font-size: 36px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+}
+
+.fun-text ul {
+  color: white;
+  font-size: 18px;
+  font-family: "Futura-PT", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.fun-text ul {
+  padding-left: 20px;
+}
+.fun-text ul li {
+  margin-bottom: 10px;
+}
+
+.fun-img {
+  flex: 1;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-image: url("../media/fun-galaxy.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.context.discovery-log {
+  background-color: #111;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-top: 60px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.context.discovery-log h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.context.discovery-log p {
+  font-size: 16px;
+  margin-bottom: 25px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.context.discovery-log form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+  width: 600px;
+}
+
+.context.discovery-log input,
+.context.discovery-log textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: "Futura-PT", sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+}
+
+.context.discovery-log input::placeholder,
+.context.discovery-log textarea::placeholder {
+  color: #888;
+}
+
+.context.discovery-log button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Futura-PT", sans-serif;
+  width: 200px;
+  align-self: center;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.context.discovery-log button:hover {
+  background-color: var(--accent-color);
+}
+
+.context.discovery-log ul {
+  list-style: none;
+  padding: 0;
+  width: 600px;
+}
+
+.context.discovery-log li {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #222;
+  border-radius: 8px;
+  line-height: 1.6;
+}
+
+/* .context.discovery-log .galaxy-name {
+  font-style: italic; 
+}
+.context.discovery-log .galaxy-type {
+
+}
+
+.context.discovery-log .note {
+  display: block;
+  margin-top: 5px;
+  color: #ccc;
+} */
+
+/* Fun-fact page ends */
 
 /* Stars Page Styling */
 
