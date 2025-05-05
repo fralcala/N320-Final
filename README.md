@@ -21,7 +21,8 @@ Our site will have pages that go over these topics and have components that user
 - Home Page: The first page a user will see.
 - Galaxies Page: Informs users about galaxies.
 - Stars Page: Informs users about stars.
-- Planets Page: Informs users about planets.
+- Planets Page: (Kiara Castillo) Informs users about planets. In my page I create a table, in this table the user can add and delete more infomation about the color, dimension, mass, and name of a planet. I make a second page about 55 Cancri e planet, you can find the link in planets page, is the last section about Strangest Planets Discovered. This second page has information about the planet.
+
 - Moons Page: Informs users about moons.
 
 ### Design Choices
