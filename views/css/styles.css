@@ -1231,6 +1231,41 @@ main p {
   border: none;
 }
 
+.star-chart {
+  margin-top: 40px;
+}
+
+#star-table {
+  width: 100%;
+
+  border-collapse: collapse;
+  background-color: #000000;
+  color: white;
+
+  font-family: "Futura-pt", sans-serif;
+  font-weight: 300;
+
+  font-size: 14px;
+
+  overflow: hidden;
+}
+
+#star-table th,
+#star-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #111a26;
+  text-align: left;
+}
+
+#star-table th {
+  background-color: #111a26;
+  color: #ffffff;
+  font-weight: 600;
+
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
 /* Start of Moons Page style */
 .moons-hero {
   background: linear-gradient(rgba(115, 212, 241, 0.39), rgba(0, 0, 0, 0.551)),

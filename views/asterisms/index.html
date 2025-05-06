@@ -34,10 +34,35 @@
         asterism is the triangle, within the constellation of Capricornus.
       </p>
       <h3>Identify your own Asterisms:</h3>
-      <input class="star-input" type="text" placeholder="Name" />
-      <input class="star-input" type="text" placeholder="Description" />
-      <button class="star-button">Submit</button>
-      <img src="../media/star-chart.jpg" alt="Star Chart" />
+      <form id="star-form">
+        <input
+          id="name"
+          name="name"
+          class="star-input"
+          type="text"
+          placeholder="Name"
+        />
+        <input
+          id="description"
+          name="description"
+          class="star-input"
+          type="text"
+          placeholder="Description"
+        />
+        <button type="submit" class="star-button">Submit</button>
+      </form>
+      <table id="star-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <img class="star-chart" src="../media/star-chart.jpg" alt="Star Chart" />
     </main>
+    <script src="../js/stars.js"></script>
   </body>
 </html>
