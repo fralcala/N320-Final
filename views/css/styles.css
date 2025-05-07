@@ -1064,100 +1064,184 @@ main p {
   background-position: center;
   background-size: cover;
 }
-.context.discovery-log {
-  background-color: #111;
-  padding: 40px 20px;
-  border-radius: 10px;
-  margin-top: 60px;
-  color: white;
+
+#galaxy-form {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.context.discovery-log h2 {
-  font-size: 28px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.context.discovery-log p {
-  font-size: 16px;
-  margin-bottom: 25px;
-  text-align: center;
-  max-width: 600px;
-}
-
-.context.discovery-log form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-bottom: 30px;
-  width: 600px;
-}
-
-.context.discovery-log input,
-.context.discovery-log textarea {
-  padding: 12px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  font-family: "Futura-PT", sans-serif;
-  background-color: white;
-  color: black;
-  font-size: 16px;
-}
-
-.context.discovery-log input::placeholder,
-.context.discovery-log textarea::placeholder {
-  color: #888;
-}
-
-.context.discovery-log button {
-  background-color: var(--primary-color);
-  color: white;
-  border: none;
-  padding: 12px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-family: "Futura-PT", sans-serif;
-  width: 200px;
-  align-self: center;
-  font-size: 16px;
-  transition: background-color 0.3s;
-}
-
-.context.discovery-log button:hover {
-  background-color: var(--accent-color);
-}
-
-.context.discovery-log ul {
-  list-style: none;
-  padding: 0;
-  width: 600px;
-}
-
-.context.discovery-log li {
+  flex-wrap: wrap;
+  gap: 10px;
   margin-bottom: 20px;
-  padding: 15px;
-  background-color: #222;
-  border-radius: 8px;
-  line-height: 1.6;
+  font-family: "Futura-PT", sans-serif;
+  font-weight: 300;
 }
 
-/* .context.discovery-log .galaxy-name {
-  font-style: italic; 
+#galaxy-form input,
+#galaxy-form textarea,
+#galaxy-form button {
+  padding: 8px 12px;
+  border: none;
+  font-size: 14px;
+  font-family: "Futura-PT", sans-serif;
+  font-weight: 300;
 }
-.context.discovery-log .galaxy-type {
 
+#galaxy-form input,
+#galaxy-form textarea {
+  background-color: #0e1520;
+  color: white;
+  border: 1px solid #444e63;
+  flex: 1 1 100%;
 }
 
-.context.discovery-log .note {
-  display: block;
-  margin-top: 5px;
-  color: #ccc;
-} */
+#galaxy-form textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+#galaxy-form button {
+  background-color: #6c9edc;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#galaxy-form button:hover {
+  background-color: #111a26;
+}
+
+.table-g {
+  color: #fff;
+  font-family: "Futura-PT", sans-serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.discovery-log {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+  color: #fff;
+  font-size: 36px;
+}
+
+#galaxy-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #000000;
+  color: white;
+  font-family: "Futura-PT", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+#galaxy-table th,
+#galaxy-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #111a26;
+  text-align: left;
+}
+
+#galaxy-table th {
+  background-color: #111a26;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#galaxy-table td button {
+  padding: 6px 10px;
+  background-color: #6c9edc;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+#galaxy-table td button:hover {
+  background-color: #111a26;
+}
 
 /* Fun-fact page ends */
+
+/* Quiz Styles start*/
+#quiz-section {
+  margin-top: 40px;
+}
+
+#quiz-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Futura-PT", sans-serif;
+  color: white;
+  background-color: #0e1520;
+  padding: 20px;
+  border: 1px solid #444e63;
+  border-radius: 8px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#quiz-form fieldset {
+  border: none;
+  padding: 0;
+}
+
+#quiz-form legend {
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 10px;
+}
+
+#quiz-form label {
+  margin-left: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#quiz-form button {
+  padding: 10px 16px;
+  width: 200px;
+  background-color: #6c9edc;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Futura-PT", sans-serif;
+  margin-top: 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+#quiz-form button:hover {
+  background-color: #111a26;
+}
+
+#quiz-result {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+}
+
+#download-pdf-btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 16px;
+  background-color: #444e63;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Futura-PT", sans-serif;
+  border-radius: 4px;
+}
+
+#download-pdf-btn:hover {
+  background-color: #6c9edc;
+}
 
 /* Stars Page Styling */
 
@@ -1206,6 +1290,64 @@ main p {
 
   color: white;
   margin-top: 80px;
+}
+
+.asterismsMain {
+  margin-top: 80px;
+}
+
+.star-input {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: "Futura-PT", sans-serif;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 16px;
+  outline: none;
+
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.star-input:active {
+  outline: none;
+  border: none;
+}
+
+.star-chart {
+  margin-top: 40px;
+}
+
+#star-table {
+  width: 100%;
+
+  border-collapse: collapse;
+  background-color: #000000;
+  color: white;
+
+  font-family: "Futura-pt", sans-serif;
+  font-weight: 300;
+
+  font-size: 14px;
+
+  overflow: hidden;
+}
+
+#star-table th,
+#star-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #111a26;
+  text-align: left;
+}
+
+#star-table th {
+  background-color: #111a26;
+  color: #ffffff;
+  font-weight: 600;
+
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
 }
 
 /* Start of Moons Page style */

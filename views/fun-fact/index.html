@@ -59,14 +59,14 @@
           <div class="fun-img"></div>
         </div>
       </section>
-      <!-- <section class="context discovery-log">
-        <h2>Galaxy Discovery Log</h2>
-        <p>
+      <section class="context">
+        <h2 class="discovery-log">Galaxy Discovery Log</h2>
+        <p class="table-g">
           Tell us about your latest galaxy discovery! Let’s share and keep the
-          universe updated. 🌠
+          universe updated.
         </p>
 
-        <form id="discoveryForm">
+        <form id="galaxy-form">
           <input
             type="text"
             id="username"
@@ -93,28 +93,23 @@
           <button type="submit">Add Discovery</button>
         </form>
 
-        <ul id="discoveryList">
-          <li>
-            <strong>CosmicCassie</strong><br />
-            <span class="galaxy-name">"Sombrero Galaxy"</span> –
-            <span class="galaxy-type">Spiral</span><br />
-            <span class="note"
-              >Just discovered it while scanning the southern sector!</span
-            >
-          </li>
-          <li>
-            <strong>RocketRonnie</strong><br />
-            <span class="galaxy-name">"Whirlpool Galaxy"</span> –
-            <span class="galaxy-type">Spiral</span><br />
-            <span class="note"
-              >Looks like a cosmic storm. Too beautiful to ignore!</span
-            >
-          </li>
-        </ul>
-      </section> -->
+        <table id="galaxy-table">
+          <thead>
+            <tr>
+              <th>Discoverer</th>
+              <th>Galaxy Name</th>
+              <th>Type</th>
+              <th>Note</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
     </main>
     <footer class="footer">
       Space Copyright © 2025. All rights reserved. Team Tiramisu
     </footer>
+    <script src="../js/galaxies.js"></script>
   </body>
 </html>
