@@ -1,4 +1,4 @@
-const API = "/api/stars.js";
+const API = "../../api/stars.js";
 
 const tableBody = document.querySelector("#star-table tbody");
 const form = document.querySelector("#star-form");
@@ -26,8 +26,8 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const newAsterism = {
-    name: document.getElementById("name").value,
-    description: document.getElementById("description").value,
+    name: document.getElementById("#name").value,
+    description: document.getElementById("#description").value,
   };
 
   fetch(API, {
