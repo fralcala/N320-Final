@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.json());
 
-  const apiRoutes = require("./api");
+const apiRoutes = require("./api");
 app.use("/api", apiRoutes);
 
 app.use(
