@@ -1179,7 +1179,7 @@ main p {
   padding: 20px;
   border: 1px solid #444e63;
   border-radius: 8px;
-  max-width: 600px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -1202,6 +1202,7 @@ main p {
 
 #quiz-form button {
   padding: 10px 16px;
+  width: 200px;
   background-color: #6c9edc;
   border: none;
   color: white;
