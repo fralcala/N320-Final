@@ -10,5 +10,7 @@ const starRoutes = require("./stars");
 router.use("/planets", planetRoutes);
 router.use("/exoplanets", exoplanetRoutes);
 router.use("/galaxies", galaxyRoutes);
+router.use("/moons", moonsRoutes);
+router.use("/stars", starRoutes);
 
 module.exports = router;
