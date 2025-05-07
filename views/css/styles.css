@@ -1419,3 +1419,63 @@ main p {
   background-position: center;
   background-size: cover;
 }
+
+.moonsList {
+  width: 50%;
+  margin: 25px 0px;
+  .mLists {
+    display: flex;
+    padding-left: 15px;
+
+    ul {
+      margin-right: 70px;
+      font-size: 20px;
+
+      a {
+        /* text-decoration: none; */
+        color: white;
+      }
+    }
+  }
+}
+
+#addComment {
+  display: flex;
+  flex-direction: column;
+
+  textarea {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+}
+
+.enceladus-hero {
+  background: linear-gradient(
+      rgba(118, 234, 255, 0.39),
+      rgba(59, 59, 59, 0.092)
+    ),
+    url("../media/Enceladus_Plume.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+
+  h1 {
+    color: white;
+    font-size: 60px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 300;
+  }
+}
